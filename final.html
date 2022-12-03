@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            final exam
+        </title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/409087fc1f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+
+                        <li><a href="#about">Profile</a></li>
+
+                        <li><a href="#contact">Contact</a></li>
+
+                        <li><a href="#asset">About</a></li>
+
+                        <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <p>Student/WebDev</p>
+                    <h1> Hi, I'm <span>Kent Rave</span></h1>
+                </div>
+
+            </div>
+        </div>
+<!-----------about----------------------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="ken1.jpg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>I'm Kent rave i. Ang 19 years old born in september 17 2003, i lived in cogeo antipolo city,
+                             currently studying in ICCT colleges as a 2nd year college student in Bachelor Science in Information and Technology.
+                            Im a extraverted person when im with the people im comfortable with but im also
+                             quite sensitive in things that i dont know about, I love to play video games
+                              especially fps games like league of legends, COD, Battlefield, farcry, rainbow six siege, etc
+                            i love sweets and movies especially when its on theatre. im also quite
+                             lazy but i want to be productive as much as i can because im a busy person. 
+                             I want to be a Data analyst in the future or Web developer because i really
+                              dreamed about being in this course since childhood and i also love to draw
+                               since im an artist.</p>
+                               <br />
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('Hobbies')">Hobbies</p>
+                            <p class="tab-links"onclick="opentab('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python programming</span><br>Data analysis using programming languages</li>
+                                <li><span>Drawing</span><br>Traditional art</li>
+                                <li><span>Computer parts</span><br>Basic troubleshooting</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Hobbies">
+                            <ul>
+                                <li><span>Playing video games</span><br>LOL,COD,FPS games,Role playing games,Fighting games</li>
+                                <li><span>Basketball</span></li>
+                                <li><span>Watching movies</span><br>Violent films,Action pack,Comedy,Comic book movies,Live action films and Sci-fi.</li>
+                                <li><span>Eating/Drinking sweets</span><br>Chocolates, Candy, Ice cream, Cakes,Iced coffee,Softdrinks,Juice</li>
+                                <li><span>Watching streamers play</span><br>I always watch some of them playing TFT or League of legends</li>
+                                <li><span>Drawing anime characters</span><br>Mostly anime characters only</li>
+                                <li><span>Watching anime</span><br>Shonen, Mature, Adventure, Slice of life, Isekai.</li>
+                                <li><span>Hanging out with my friends</span><br>Playing games, "Chismisan", Backstabbing other people, Talking about politics or girls</li>
+                                <li><span>Sleeping</span><br>At least 9 hours per day</li>
+                                <li><span>Flirting</span><br>With my Partner</li>
+                                <li><span>Reading manhwa/manga/manhua</span><br>Action ,System, Overpowered,etc.</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>HighSchool graduate</span><br>4 Years at Antipolo National HighSchool</li>
+                                <li><span>Senior HighSchool graduate</span><br>2 years at Antipolo City Senior HighSchool</li>
+                                <li><span>Currently a BSIT college Student </span><br>4years course at ICCT college</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!----------SERVICES-------------------------->
+        <div id="asset">
+            <div class="container">
+                <h1 class="sub-title">Skill-Assets</h1>
+                <div class="asset-list">
+                    <div>
+                        <i class="fa-sharp fa-solid fa-pen-nib"></i>
+                        <h2>Drawings</h2>
+                        <p>I am taking commissions for their desired artwork and the payment was based on how mauch effort and materials i put into it.</p>
+                        <a href="#"></a>
+                    </div>
+
+                    <div>
+                        <i class="fa-sharp fa-solid fa-code"></i>
+                        <h2>Programming</h2>
+                        <p>Im able to at least perform basic skills of programming using python.</p>
+                        <a href="#"></a>
+                    </div>
+
+                    <div>
+                        <i class="fa-sharp fa-solid fa-computer"></i>
+                        <h2>E-sports</h2>
+                        <p>I can play competively at League of legends , Team fight tactics or Call of Duty.</p>
+                        <a href="#"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--------porfolio-------->
+        <div id="portfolio">
+
+            <div class="container">
+
+                <h1 class="sub-title">My Artworks</h1>
+
+                <div class="art-list">
+
+                    <div class="art">
+                        <img src="obito.jpg">
+                        <div class="layer">
+                            <h3>Obito</h3>
+                            <p>From naruto shippuden</p>
+                            <i class="fa-sharp fa-solid fa-pen-fancy"></i>
+                        </div>
+                    </div>
+    
+                    <div class="art">
+                        <img src="genos.jpg">
+                        <div class="layer">
+                            <h3>Genos</h3>
+                            <p>From one punch man</p>
+                            <i class="fa-sharp fa-solid fa-pen-fancy"></i>
+                        </div>
+                    </div>
+    
+                    <div class="art">
+                        <img src="arrow.jpg">
+                        <div class="layer">
+                            <h3>Arrow</h3>
+                            <p>From fireforce</p>
+                            <i class="fa-sharp fa-solid fa-pen-fancy"></i>
+                        </div>
+                    </div>
+    
+                    <div class="art">
+                        <img src="katekyo.jpg">
+                        <div class="layer">
+                            <h3>Tsuna</h3>
+                            <p>From katekyo hitman reborn</p>
+                            <i class="fa-sharp fa-solid fa-pen-fancy"></i>
+                        </div>
+                    </div>
+    
+                    <div class="art">
+                        <img src="jojo.jpg">
+                        <div class="layer">
+                            <h3>Giorno</h3>
+                            <p>From golden wind</p>
+                            <i class="fa-sharp fa-solid fa-pen-fancy"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="art">
+                        <img src="tokyo.jpg">
+                        <div class="layer">
+                            <h3>kaseki</h3>
+                            <p>From tokyo revengers</p>
+                            <i class="fa-sharp fa-solid fa-pen-fancy"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+<!--------------info------------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">My Information</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>thevoidcacroach@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>angkentrave@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09602363268</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/kentrave.ang.79"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/kentang69930995/status/1573081253464920065?t=K64aBwFocDW-8QPbvOH_pA&s=19&fbclid=IwAR1XNkkL0Pa49fkxjIqDAqvrnxFGP7ngXUMX2h4-Am69Fj9uDgAjlxQ5LV4"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/p/CT4Nbo6pzPQ/?igshid=YmMyMTA2M2Y%3D&fbclid=IwAR1hqIHhqwBT9yBzEc-IR_7HMK9RrZez7U3UKV8oQh-klsN9FLZQa_WLZg4"><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+            
+        </div>
+        <div class="copyright">
+            <p>Copyright @ KentraveAng <i class="fa-sharp fa-solid fa-heart"></i>At ICCT College</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "0";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxgCaZ04VJfEnCAtjYSMv6qx-CltFbbX-qzYjZjuzIJY4PGMka239HPzh5MiiDAu5ir/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+    </body>
+</html>
